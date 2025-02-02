@@ -11,6 +11,7 @@ pip install SpeechRecognition
 # Clone the repository:
 
 git clone https://github.com/Faizanfarhad/Simple-Voice-Recognition.git
+
 cd Simple-Voice-Recognition
 
 # Ensure all dependencies are installed:
