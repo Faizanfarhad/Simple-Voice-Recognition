@@ -3,9 +3,9 @@
 
 # Dependencies
 * To install the necessary dependencies, run the following commands:
-pip install PyQt6
-pip install gtts
-pip install SpeechRecognition
+* pip install PyQt6
+* pip install gtts
+* pip install SpeechRecognition
 
 # How to Use
 # Clone the repository:
