@@ -54,10 +54,7 @@ class MainWindow(QMainWindow):
                 tts = gTTS(text=f'currrent time is {CurrentTime}', lang='en')
                 tts.save('time.mp3')
                 os.system('mpg123 time.mp3')
-            elif a.recognize_google(output_speech) == 'fuck you':
-                tts = gTTS(text=f'fuck you too {name}', lang='en')
-                tts.save('time.mp3')
-                os.system('mpg123 time.mp3')
+           
 
             time.sleep(2)
             tts.save("speech.mp3")
@@ -77,18 +74,7 @@ if __name__ == '__main__':
     sys.exit(app.exec())
 
 
-# def VoiceRecognizer():
-#     a = aud.Recognizer()
-#
-#     with aud.Microphone() as source:
-#         print("Say Something")
-#         output_speech = a.listen(source)
-#
-#     try:
-#         print("You sayed : ", a.recognize_google(output_speech))
-#     except aud.UnknownValueError:
-#         print("Voice is not clear")
-#
+
 
 
 
